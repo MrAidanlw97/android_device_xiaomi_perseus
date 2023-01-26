@@ -1,9 +1,12 @@
 #
 # Copyright (C) 2019-2022 The LineageOS Project
+# Copyright (C) 2023 Aidan Warner
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Get non-open-source specific aspects
@@ -15,11 +18,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
+    $(LOCAL_PATH)/overlay 
+    $(LOCAL_PATH)/overlay-aosp
 
 # Permissions
 PRODUCT_COPY_FILES += \
