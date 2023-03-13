@@ -14,7 +14,6 @@ FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := false
-PEX_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_perseus
