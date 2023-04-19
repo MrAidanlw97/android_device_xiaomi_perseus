@@ -3,24 +3,24 @@
     "remote": "pixelextended-devices",
     "repository": "device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "revision": "trece"
+    "branch": "trece"
   },
   {
     "remote": "pixelextended-devices",
     "repository": "kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845",
-    "revision": "trece"
+    "branch": "trece"
   },
   {
     "remote": "gitlab",
     "repository": "AidanWarner/vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "revision": "trece"
+    "branch": "trece"
    },
   {
-    "remote": "pixelextended-devices",
+    "remote": "pixel",
     "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "revision": "trece"
+    "branch": "thirteen"
   }
 ]
