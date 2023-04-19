@@ -18,9 +18,9 @@
     "revision": "trece"
    },
   {
-    "remote": "github",
-    "repository": "PixelExperience/hardware_xiaomi",
+    "remote": "pixelextended-devices",
+    "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "revision": "thirteen"
+    "revision": "trece"
   }
 ]
