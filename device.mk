@@ -105,3 +105,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
+
+# TinyXML
+PRODUCT_PACKAGES += \
+    libtinyxml
